@@ -9,9 +9,9 @@ return new class extends Migration
     public function up()
     {
         Schema::create('avatars', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id('id');
 
-            $table->integer('user_id')->unsigned()->unique();
+            $table->bigInteger('user_id')->unsigned()->unique();
             $table->foreign('user_id')->references('id')->on('users')
                 ->onUpdate('restrict')->onDelete('cascade');
 
