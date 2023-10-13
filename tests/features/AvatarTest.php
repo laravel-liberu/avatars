@@ -72,8 +72,8 @@ class AvatarTest extends TestCase
 
     private function createTestFolder()
     {
-        if (! Storage::has(Config::get('enso.files.testingFolder'))) {
-            Storage::makeDirectory(Config::get('enso.files.testingFolder'));
+        if (! Storage::has(Config::get('liberu.files.testingFolder'))) {
+            Storage::makeDirectory(Config::get('liberu.files.testingFolder'));
         }
     }
 
@@ -81,6 +81,6 @@ class AvatarTest extends TestCase
     {
         $this->user->avatar->delete();
 
-        Storage::deleteDirectory(Config::get('enso.files.testingFolder'));
+        Storage::deleteDirectory(Config::get('liberu.files.testingFolder'));
     }
 }
