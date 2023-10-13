@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Avatars\Services;
+namespace LaravelLiberu\Avatars\Services;
 
 use Illuminate\Support\Facades\App;
-use LaravelEnso\Avatars\Models\Avatar;
-use LaravelEnso\Avatars\Services\Generators\Gravatar;
-use LaravelEnso\Avatars\Services\Generators\Laravolt;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Avatars\Models\Avatar;
+use LaravelLiberu\Avatars\Services\Generators\Gravatar;
+use LaravelLiberu\Avatars\Services\Generators\Laravolt;
+use LaravelLiberu\Users\Models\User;
 
 class DefaultAvatar
 {

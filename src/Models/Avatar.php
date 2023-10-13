@@ -1,17 +1,17 @@
 <?php
 
-namespace LaravelEnso\Avatars\Models;
+namespace LaravelLiberu\Avatars\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Http\UploadedFile;
-use LaravelEnso\Files\Contracts\Attachable;
-use LaravelEnso\Files\Contracts\Extensions;
-use LaravelEnso\Files\Contracts\MimeTypes;
-use LaravelEnso\Files\Contracts\OptimizesImages;
-use LaravelEnso\Files\Contracts\ResizesImages;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Files\Contracts\Attachable;
+use LaravelLiberu\Files\Contracts\Extensions;
+use LaravelLiberu\Files\Contracts\MimeTypes;
+use LaravelLiberu\Files\Contracts\OptimizesImages;
+use LaravelLiberu\Files\Contracts\ResizesImages;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Users\Models\User;
 
 class Avatar extends Model implements Attachable, Extensions, MimeTypes, ResizesImages, OptimizesImages
 {

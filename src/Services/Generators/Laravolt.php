@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\Avatars\Services\Generators;
+namespace LaravelLiberu\Avatars\Services\Generators;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use LaravelEnso\Avatars\Models\Avatar;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Files\Models\Type;
+use LaravelLiberu\Avatars\Models\Avatar;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Files\Models\Type;
 use Laravolt\Avatar\Facade as Service;
 
 class Laravolt

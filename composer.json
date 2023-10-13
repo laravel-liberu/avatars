@@ -27,14 +27,14 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Avatars\\": "src/"
+            "LaravelLiberu\\Avatars\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Avatars\\AppServiceProvider",
-                "LaravelEnso\\Avatars\\AuthServiceProvider"
+                "LaravelLiberu\\Avatars\\AppServiceProvider",
+                "LaravelLiberu\\Avatars\\AuthServiceProvider"
             ],
             "aliases": {}
         }

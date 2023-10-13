@@ -4,8 +4,8 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Storage;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class AvatarTest extends TestCase

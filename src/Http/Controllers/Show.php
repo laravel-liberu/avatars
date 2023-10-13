@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Avatars\Http\Controllers;
+namespace LaravelLiberu\Avatars\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Avatars\Models\Avatar;
+use LaravelLiberu\Avatars\Models\Avatar;
 
 class Show extends Controller
 {

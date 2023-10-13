@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Avatars\Observers;
+namespace LaravelLiberu\Avatars\Observers;
 
-use LaravelEnso\Users\Models\User as Model;
+use LaravelLiberu\Users\Models\User as Model;
 
 class User
 {

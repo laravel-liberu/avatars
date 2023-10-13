@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\Avatars;
+namespace LaravelLiberu\Avatars;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Avatars\Commands\GenerateAvatars;
-use LaravelEnso\Avatars\Dynamics\Methods\GenerateAvatar;
-use LaravelEnso\Avatars\Dynamics\Relations\Avatar as Relation;
-use LaravelEnso\Avatars\Observers\User as Observer;
-use LaravelEnso\DynamicMethods\Services\Methods;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Avatars\Commands\GenerateAvatars;
+use LaravelLiberu\Avatars\Dynamics\Methods\GenerateAvatar;
+use LaravelLiberu\Avatars\Dynamics\Relations\Avatar as Relation;
+use LaravelLiberu\Avatars\Observers\User as Observer;
+use LaravelLiberu\DynamicMethods\Services\Methods;
+use LaravelLiberu\Users\Models\User;
 
 class AppServiceProvider extends ServiceProvider
 {

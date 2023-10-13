@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Avatars\Services\Generators;
+namespace LaravelLiberu\Avatars\Services\Generators;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
-use LaravelEnso\Avatars\Models\Avatar;
+use LaravelLiberu\Avatars\Models\Avatar;
 use Throwable;
 
 class Gravatar

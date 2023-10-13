@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Avatars;
+namespace LaravelLiberu\Avatars;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use LaravelEnso\Avatars\Models\Avatar;
-use LaravelEnso\Avatars\Policies\AvatarPolicy;
+use LaravelLiberu\Avatars\Models\Avatar;
+use LaravelLiberu\Avatars\Policies\AvatarPolicy;
 
 class AuthServiceProvider extends ServiceProvider
 {

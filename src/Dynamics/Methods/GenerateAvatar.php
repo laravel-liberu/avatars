@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Avatars\Dynamics\Methods;
+namespace LaravelLiberu\Avatars\Dynamics\Methods;
 
 use Closure;
-use LaravelEnso\Avatars\Models\Avatar;
-use LaravelEnso\Avatars\Services\DefaultAvatar;
-use LaravelEnso\DynamicMethods\Contracts\Method;
+use LaravelLiberu\Avatars\Models\Avatar;
+use LaravelLiberu\Avatars\Services\DefaultAvatar;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
 
 class GenerateAvatar implements Method
 {

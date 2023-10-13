@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Avatars\Dynamics\Relations;
+namespace LaravelLiberu\Avatars\Dynamics\Relations;
 
 use Closure;
-use LaravelEnso\Avatars\Models\Avatar as Model;
-use LaravelEnso\DynamicMethods\Contracts\Method;
+use LaravelLiberu\Avatars\Models\Avatar as Model;
+use LaravelLiberu\DynamicMethods\Contracts\Method;
 
 class Avatar implements Method
 {
